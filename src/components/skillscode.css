@@ -1,0 +1,117 @@
+*{
+  list-style:none;
+  padding:0;
+}
+
+li{
+  list-style-type: none;
+}
+.skills{
+
+  margin: 0 auto;
+  color:white;
+}
+
+.skills li{
+  margin: 20px 0 10px 0; 
+}
+
+.skillsBar{
+  background: black;
+  display:block;
+  height:6px;
+  border-radius:3px;
+  overflow:hidden;
+  box-shadow:0 0 10px #FF2A55;
+}
+.skillsBar .barInner{
+  height:6px;
+  float:left;
+  background: var(--neonred);
+}
+
+.css3{
+  width:65%;
+}
+
+.javascript{
+  width:45%;
+
+}
+.react{
+  width:45%;
+
+}
+.vuejs{
+  width:45%;
+
+}
+.shopify{
+  width:20%;
+}
+
+.photoshop{
+  width:45%;
+
+}
+.illustrator{
+  width:45%;
+
+}
+.soundproduction{
+  width:65%;
+
+}
+.video{
+  width:20%;
+
+}
+
+.creativity{
+  width:95%;
+
+}
+.adaptability{
+  width:95%;
+
+}
+.reliability{
+  width:95%;
+
+}
+.workethic{
+  width:95%;
+
+}
+
+.skillLevel{
+	display: flex;
+	justify-content: space-between;
+	margin: 0 auto;
+	width: 85%;
+
+}
+
+.skillLevel p{
+  font-size: 1em;
+  color: #878787;
+}
+
+@media (max-width: 767.98px) {
+  .skillLevel{
+    width: 100%;
+  }
+}
+
+@media (max-width: 499px) {
+  .skillLevel p{
+  font-size: .8em;
+  }
+
+  .skills h2{
+    font-size: 1.5em;
+  }
+    .skills h3{
+    font-size: 1.3em;
+  }
+}

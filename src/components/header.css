@@ -1,0 +1,374 @@
+:root {
+ --neonred: #FF2A55;
+ --neonteal: #69EFEF;
+}
+
+*{
+	margin:0;
+	padding: 0;	
+}
+
+.header{
+
+}
+
+.offscreen{  /*Visually hides site into but leaves it for screen reader*/
+	clip-path: inset(100%);
+ 	clip: rect(1px 1px 1px 1px); /* IE 6/7 */
+ 	clip: rect(1px, 1px, 1px, 1px);
+  	height: 1px;
+  	overflow: hidden;
+  	position: absolute;
+  	white-space: nowrap; /* added line */
+  	width: 1px;
+ }
+
+ .headerInfo{
+text-align: center;
+
+ }
+
+.pageLogo, .glitch{
+  color: var(--neonred);
+  font-family: 'ds-digii-webfont', sans-serif;
+}
+
+header{
+	position: relative;
+	overflow-y: hidden;
+}
+
+.navPosition{
+position: fixed;
+bottom: 0;
+left: 0;
+right: 0;
+z-index: 1;
+}
+
+
+header, .subHeader{
+	height: 100vh;
+	width: 100%;
+	background-image: url('./images/hero.jpg');
+	background-position: center; 
+  	background-repeat: no-repeat; 
+  	background-size: cover; 
+}
+
+.container {
+	 position: absolute;
+	 transform: translate(-50%, -50%);
+	 top: 40%;
+	 left: 50%;
+
+}
+
+.glitch{
+	background-color: black;
+}
+
+.glitch span{
+	background-color: black;
+}
+
+ .glitch, .glow {
+	 color: var(--neonred);
+	 position: relative;
+	 font-size: 7em;
+	 animation: glitch 3s 3s infinite;
+/*	 overflow-y: hidden;*/
+}
+
+ .glitch::after, .glow::after {
+	 content: attr(data-text);
+	 position: absolute;
+	 left: -2px;
+	 text-shadow: -3px 0 var(--neonteal);
+	 overflow: hidden;
+	 top: 0;
+	 animation: noise-2 30s linear infinite alternate-reverse, glitch 10s 10.05s infinite;
+}
+
+p{
+	font-size: 1.2em;
+}
+
+
+h2 span{
+	background-color: black;
+	padding: 2px 10px;
+}
+
+p span{
+	background-color: black;
+	padding: 2px 10px;
+}
+
+.visual span p{
+	background-color: black;
+	padding-bottom: 10px;
+	padding: 2px 10px 10px 0px;
+}
+
+
+.testHeader{
+}
+
+ @keyframes glitch {
+	 1% {
+		 transform: rotateX(85deg) skewX(80deg);
+	}
+	 2% {
+		 transform: rotateX(0deg) skewX(0deg);
+	}
+
+}
+ @keyframes noise-1 {
+	 3.3333333333% {
+		 clip-path: inset(5px 0 94px 0);
+	}
+	 6.6666666667% {
+		 clip-path: inset(27px 0 57px 0);
+	}
+	 10% {
+		 clip-path: inset(7px 0 68px 0);
+	}
+	 13.3333333333% {
+		 clip-path: inset(84px 0 13px 0);
+	}
+	 16.6666666667% {
+		 clip-path: inset(95px 0 1px 0);
+	}
+	 20% {
+		 clip-path: inset(82px 0 12px 0);
+	}
+	 23.3333333333% {
+		 clip-path: inset(78px 0 17px 0);
+	}
+	 26.6666666667% {
+		 clip-path: inset(42px 0 8px 0);
+	}
+	 30% {
+		 clip-path: inset(97px 0 1px 0);
+	}
+	 33.3333333333% {
+		 clip-path: inset(70px 0 10px 0);
+	}
+	 36.6666666667% {
+		 clip-path: inset(95px 0 3px 0);
+	}
+	 40% {
+		 clip-path: inset(15px 0 69px 0);
+	}
+	 43.3333333333% {
+		 clip-path: inset(88px 0 4px 0);
+	}
+	 46.6666666667% {
+		 clip-path: inset(1px 0 23px 0);
+	}
+	 50% {
+		 clip-path: inset(71px 0 13px 0);
+	}
+	 53.3333333333% {
+		 clip-path: inset(100px 0 1px 0);
+	}
+	 56.6666666667% {
+		 clip-path: inset(18px 0 74px 0);
+	}
+	 60% {
+		 clip-path: inset(1px 0 41px 0);
+	}
+	 63.3333333333% {
+		 clip-path: inset(27px 0 7px 0);
+	}
+	 66.6666666667% {
+		 clip-path: inset(15px 0 76px 0);
+	}
+	 70% {
+		 clip-path: inset(29px 0 43px 0);
+	}
+	 73.3333333333% {
+		 clip-path: inset(41px 0 8px 0);
+	}
+	 76.6666666667% {
+		 clip-path: inset(69px 0 5px 0);
+	}
+	 80% {
+		 clip-path: inset(74px 0 8px 0);
+	}
+	 83.3333333333% {
+		 clip-path: inset(99px 0 2px 0);
+	}
+	 86.6666666667% {
+		 clip-path: inset(17px 0 63px 0);
+	}
+	 90% {
+		 clip-path: inset(74px 0 22px 0);
+	}
+	 93.3333333333% {
+		 clip-path: inset(72px 0 15px 0);
+	}
+	 96.6666666667% {
+		 clip-path: inset(22px 0 39px 0);
+	}
+	 100% {
+		 clip-path: inset(43px 0 29px 0);
+	}
+}
+ @keyframes noise-2 {
+	 0% {
+		 clip-path: inset(19px 0 53px 0);
+	}
+	 3.3333333333% {
+		 clip-path: inset(70px 0 4px 0);
+	}
+	 6.6666666667% {
+		 clip-path: inset(77px 0 21px 0);
+	}
+	 10% {
+		 clip-path: inset(90px 0 8px 0);
+	}
+	 13.3333333333% {
+		 clip-path: inset(70px 0 31px 0);
+	}
+	 16.6666666667% {
+		 clip-path: inset(17px 0 18px 0);
+	}
+	 20% {
+		 clip-path: inset(12px 0 25px 0);
+	}
+	 23.3333333333% {
+		 clip-path: inset(11px 0 49px 0);
+	}
+	 26.6666666667% {
+		 clip-path: inset(23px 0 50px 0);
+	}
+	 30% {
+		 clip-path: inset(12px 0 87px 0);
+	}
+	 33.3333333333% {
+		 clip-path: inset(7px 0 9px 0);
+	}
+	 36.6666666667% {
+		 clip-path: inset(63px 0 6px 0);
+	}
+	 40% {
+		 clip-path: inset(61px 0 12px 0);
+	}
+	 43.3333333333% {
+		 clip-path: inset(88px 0 1px 0);
+	}
+	 46.6666666667% {
+		 clip-path: inset(50px 0 34px 0);
+	}
+	 50% {
+		 clip-path: inset(22px 0 9px 0);
+	}
+	 53.3333333333% {
+		 clip-path: inset(31px 0 31px 0);
+	}
+	 56.6666666667% {
+		 clip-path: inset(12px 0 39px 0);
+	}
+	 60% {
+		 clip-path: inset(94px 0 4px 0);
+	}
+	 63.3333333333% {
+		 clip-path: inset(63px 0 30px 0);
+	}
+	 66.6666666667% {
+		 clip-path: inset(57px 0 1px 0);
+	}
+	 70% {
+		 clip-path: inset(30px 0 50px 0);
+	}
+	 73.3333333333% {
+		 clip-path: inset(75px 0 20px 0);
+	}
+	 76.6666666667% {
+		 clip-path: inset(14px 0 29px 0);
+	}
+	 80% {
+		 clip-path: inset(27px 0 17px 0);
+	}
+	 83.3333333333% {
+		 clip-path: inset(3px 0 15px 0);
+	}
+	 86.6666666667% {
+		 clip-path: inset(82px 0 5px 0);
+	}
+	 90% {
+		 clip-path: inset(34px 0 34px 0);
+	}
+	 93.3333333333% {
+		 clip-path: inset(83px 0 11px 0);
+	}
+	 96.6666666667% {
+		 clip-path: inset(36px 0 52px 0);
+	}
+	 100% {
+		 clip-path: inset(56px 0 43px 0);
+	}
+}
+
+ .glow {
+	 color: transparent;
+	 position: absolute;
+	 top: 0;
+}
+
+@media (max-width: 1024px) and (max-height: 1366px)  {
+	p{
+	font-size: 1em;
+	}
+
+	h2{
+	font-size: 1.2em;
+	}
+	.container {
+	top: 45%;
+	}
+
+}
+
+@media (max-width: 830px){
+
+	.glitch::after, .glow::after {
+	text-shadow: none;
+	animation: none !important;
+	}
+
+	.glitch, .glow {
+	font-size: 4em;
+	}
+
+	header{
+	height: calc(100vh - 77px);
+	}
+}
+
+
+@media (max-width: 768px) and (max-height: 1024px) {
+	.glitch, .glow {
+	font-size: 4em;
+	}
+}
+
+@media (max-width: 599px) {
+	.glitch, .glow {
+	font-size: 55px;
+	}
+	header h2{
+	font-size: 1.1em;
+	}
+}
+
+@media (max-width: 350px) {
+	.glitch, .glow {
+	font-size: 45px;
+	}
+}
+
+
+

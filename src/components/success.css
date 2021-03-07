@@ -1,0 +1,35 @@
+
+.pageMargin .layout{
+	margin-top: 60px;
+}
+
+.layout,
+.success{
+		height: 90vh;
+	background-position: center; 
+  background-repeat: no-repeat; 
+  background-size: cover; 
+}
+
+.layout{
+	background-image: url('./images/bomb.jpg');
+}
+
+
+.success{
+	background-image: url('./images/waste.jpg');
+}
+
+.layout h2{
+	margin-bottom: 15px;
+}
+
+.pStyle{
+	margin-left: 10px;
+	font-size: 2em;
+	text-align: center;
+}
+
+.pStyle p span {
+	background-color: black;
+}

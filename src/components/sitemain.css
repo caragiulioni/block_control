@@ -1,0 +1,349 @@
+
+.bioText{
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+}
+
+.bioInfo img{
+    width: 100%;
+}
+
+.bioInfo{
+    width:74%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-column-gap: 15px;
+}
+
+
+.bioMain p{
+	font-size: 1.2em;
+	margin: 0px 15px;
+}
+
+.bioMain{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.bioMainText p{
+    margin: 10px;
+
+}
+.bioSnippet{
+	padding: 5px;
+	font-size: 1.3em;
+	background-color: #FF2A55;
+	border-radius: 3px;
+}
+
+.bioSnippet span{
+    background-color: black;
+    padding: 0px 10px;
+}
+
+.accordion {
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    border-radius: 2px;
+}
+
+.accordion__button {
+    color: #444;
+    cursor: pointer;
+    text-align: left;
+    border: none;
+}
+
+.accordion__button:before {
+    display: inline-block;
+    content: '';
+    height: 8px;
+    width: 8px;
+    margin-right: 12px;
+    border-bottom: 2px solid currentColor;
+    border-right: 2px solid currentColor;
+    transform: rotate(-45deg);
+}
+
+.accordion__button[aria-expanded='true']::before,
+.accordion__button[aria-selected='true']::before {
+    transform: rotate(45deg);
+}
+
+.accordion *[data-hidden] {
+    display: none;
+}
+
+.accordion__panel {
+    padding: 20px;
+    animation: fadein 0.35s ease-in;
+}
+
+.accordion__heading{
+    display: flex;
+}
+
+.accordion {
+    max-width: 90vw;
+    margin-top: -23px;
+}
+
+.skillsButton:before {
+    display: inline-block;
+    content: 'details';
+    color: #6FFBFB;
+	padding: 0px 10px;
+    cursor: pointer;
+}
+
+.skills h3{
+	padding: 0px 0px;
+}
+
+.skillsButtonWeb{
+        margin-left: 200px;
+}
+
+.skillsButtonVisual{
+        margin-left:200px;
+}
+
+.skillsButtonGeneral{
+        margin-left:200px;
+}
+
+.skillsButton[aria-expanded='true']::before,
+.skillsButton[aria-selected='true']::before {
+    display: inline-block;
+    content: 'close';
+    cursor: pointer;
+
+}
+
+.accordion__panel {
+    animation: fadein 0.5s ease-in;
+    padding: 10px 5px;
+}
+
+.accordion__heading{
+display: flex;
+position: relative;
+width: 100%;
+}
+
+.bioMain{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.bioSnippet{
+    font-size: 1.2em;
+}
+
+
+
+@keyframes fadein {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+@media only screen 
+and (min-device-width: 1366px) 
+and (max-device-width: 1024px){
+    .sectionMain{
+        padding-top: 15px;
+    }
+}
+
+@media (max-width: 1349px) {
+.bioInfo{
+    width:78%;
+}
+}
+
+@media (max-width: 1336px) {
+    .bioInfo p{
+        font-size: 1.2em;
+        margin: 8px 15px;
+    }
+}
+
+@media (max-width: 1289px) {
+    .bioInfo p{
+        font-size: 1.2em;
+    }
+
+    .bioSnippet{
+        font-size: 1.1em;
+    }
+}
+
+@media (max-width: 1230px) {
+    .bioInfo p{
+        font-size: 1.2em;
+    }
+
+    .bioSnippet{
+        font-size: 1.1em;
+    }
+}
+
+@media (max-width: 1225px) {
+    .bioInfo p{
+        font-size: 1.1em;
+    }
+}
+
+@media (max-width: 1146px) {
+    .bioInfo p{
+        font-size: 1em;
+    }
+}
+
+
+@media (max-width: 1084px) {
+        .bioInfo p{
+        font-size: 1em;
+    }
+
+    .bioSnippet{
+        font-size: 1.1em;
+    }
+
+    .bioInfo{
+    width:80%;
+    }
+}
+
+@media (max-width: 1049px) {
+    .bioInfo{
+    width:85%
+    }
+}
+
+@media (max-width: 1030px) {
+    .bioInfo p{
+    font-size: 1.1em;
+    }
+
+    .bioInfo{
+    width:90%;
+    }
+}
+
+@media (max-width: 1000px) {
+    .bioInfo p{
+        font-size: 1em;
+    }
+
+    .bioInfo{
+        width:90%;
+    }
+}
+
+
+@media (max-width: 931px) {
+
+
+    .bioInfo{
+    width:95%;
+    }
+}
+
+
+@media (max-width: 892px) {
+    .bioInfo p{
+        font-size: .9em;
+    }
+
+    .bioSnippet{
+        font-size: 1em;
+    }
+    
+    .bioInfo{
+        width:90%;
+    }
+}
+
+@media (max-width: 800px) {
+    .bioInfo{
+        width:95%;
+    }
+}
+
+
+@media (max-width: 768px) {
+
+    .bioInfo{
+        width:100%;
+    }
+
+    .skillsButton:before {
+    	font-size: .9em;
+    }
+
+    .bioInfo p{
+        font-size: 1em;
+    }
+
+        .bioSnippet{
+        font-size: 1.1em;
+    }
+
+}
+
+@media (max-width: 765px) {
+    .bioInfo{
+        grid-template-columns: 1fr;
+        grid-column-gap: 0px;
+        grid-row-gap: 15px;
+    }
+}
+
+@media (max-width: 500px) {
+    .skillsButtonWeb, 
+    .skillsButtonVisual,
+    .skillsButtonGeneral{
+            margin-left: 270px;
+    }
+
+    .bioInfo p{
+        font-size: .9em;
+    }
+}
+
+@media (max-width: 450px) {
+    .skillsButtonWeb, 
+    .skillsButtonVisual,
+    .skillsButtonGeneral{
+            margin-left: 300px;
+    }
+}
+
+@media (max-width: 380px) {
+    .skillsButtonWeb, 
+    .skillsButtonVisual,
+    .skillsButtonGeneral{
+            margin-left: 265px;
+    }
+}
+
+@media (max-width: 320px) {
+    .skillsButtonWeb, 
+    .skillsButtonVisual,
+    .skillsButtonGeneral{
+            margin-left: 230px;
+    }
+}
+
+
+
+
+

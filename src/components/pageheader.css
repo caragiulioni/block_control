@@ -1,0 +1,57 @@
+
+@font-face {
+font-family: "ds-digii-webfont";
+src: url("../fonts/ds-digii-webfont.ttf") format("truetype");
+src:
+url("../fonts/ds-digii-webfont.woff") format("woff"),
+url("../fonts/ds-digii-webfont.eot") format("opentype"),
+url("../fonts/ds-digii-webfont.svg") format("svg");
+}
+
+.pageHeader{
+	width: 100%;
+	padding: 10px 0px;
+	height: 90px;
+	border-bottom: 3px solid #FF2A55;
+}
+
+.pageHeader h1{
+	text-align: center;
+	font-family: "ds-digii-webfont";
+	text-decoration: none;
+	color:  #FF2A55;
+}
+
+.pageContainer{
+	margin: 13px 0px 25px 0px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+
+
+h1 span,
+p span{
+	background-color: black;
+}
+.pageLogo h1{
+	text-shadow: 1px 1px 2px black, 0 0 25px  #FF2A55, 0 0 5px  #FF2A55;
+	margin-bottom: 0;
+	font-size: 2.5em 
+}
+
+.pageLogo p{
+	font-family: "Rajdhani";
+	text-align: center;
+	color: white;
+	text-transform: uppercase;
+	font-size: 1em;
+}
+
+.pageHeaderMain .hidden{
+display: none;
+}
+
+.siteNavPage{
+height: 40px;
+}

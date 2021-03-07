@@ -1,0 +1,30 @@
+
+.notFound{
+	height: 100%;
+	background-position: center; 
+  	background-repeat: no-repeat; 
+  	background-size: cover; 
+}
+.layout{
+	background-image: url('./images/bomb.jpg');
+}
+
+.notFound .sectionPadding{
+	margin-top: 15px;
+}
+
+.success{
+	background-image: url('./images/waste.jpg');
+}
+
+.layout h2{
+	margin-bottom: 15px;
+}
+
+.pStyle{
+	margin-left: 10px;
+}
+
+.pStyle p span {
+	background-color: black;
+}

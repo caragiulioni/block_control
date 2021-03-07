@@ -1,0 +1,47 @@
+.demos img {
+  width: 100%;
+}
+
+.demo.padding {
+  padding: 15px 15px 0px 15px;
+}
+
+.demo .sectionMargin {
+}
+
+.demoButtons {
+  display: flex;
+  justify-content: center;
+}
+
+.demoButtons a {
+  margin: 0px 10px;
+  color: #69efef;
+}
+
+.demoContent {
+  margin-bottom: 50px;
+}
+.demoContent p {
+  font-weight: bold;
+  text-align: center;
+}
+.demo h2 {
+  background-color: var(--neonred);
+  padding: 5px;
+}
+
+.demo h2 span {
+  background-color: black;
+  padding: 0px 10px;
+}
+
+@media (max-width: 767.98px) {
+  .demo h2 {
+    padding: 3px;
+  }
+
+  .demo .sectionMargin {
+    margin: 0;
+  }
+}
