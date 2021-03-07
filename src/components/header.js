@@ -15,7 +15,6 @@ const Header = () => (
 					<h2><span>Online home for Cara Giulioni</span></h2>	
 			 		<p><span>Full-Stack Web Development</span></p>
 			 		<div className="visual"><p><span>Visual and Auditory Arts</span></p></div>
-					 <div className="visual"><p><span>www.blockcontrol.ca</span></p></div>
 	 			</div>
  	 		</div>
 
