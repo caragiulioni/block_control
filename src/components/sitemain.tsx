@@ -85,7 +85,7 @@ export default function SiteMain() {
 		<div className="headingStyle h2margin"><h2><span>Skills</span></h2></div>
 			<div className="accordionContainer"> 
 			<h3><span>Web Development</span></h3>
-				<Accordion allowZeroExpanded="true">
+				<Accordion key="accordion-one" allowZeroExpanded="true">
 		            <AccordionItem>
 		            	<AccordionItemHeading>
 		                    <AccordionItemButton className="skillsButton skillsButtonWeb" alt="Skills details.">
@@ -99,13 +99,13 @@ export default function SiteMain() {
 	            	</AccordionItem>
 	        	</Accordion>
         	</div>
-			<Skillscode aria-hidden="true"/>
+			<Skillscode key="skills-code-one" aria-hidden="true"/>
 		</section>
 
 		<section className="skills sectionPadding">
 			<div className="accordionContainer"> 
 			<h3>Visual and Sound</h3>
-				<Accordion allowZeroExpanded="true">
+				<Accordion key="accordion-two" allowZeroExpanded="true">
 		            <AccordionItem>
 		            	<AccordionItemHeading>
 		                    <AccordionItemButton className="skillsButton skillsButtonVisual" alt="Skills details.">
@@ -119,13 +119,13 @@ export default function SiteMain() {
 	            	</AccordionItem>
 	        	</Accordion>
         	</div>
-			<Skillscodetwo aria-hidden="true"/>
+			<Skillscodetwo key="skills-code-two"aria-hidden="true"/>
 		</section>
 
 		<section className="skills sectionPadding">
 			<div className="accordionContainer"> 
 			<h3>General</h3>
-				<Accordion allowZeroExpanded="true">
+				<Accordion key="accordion-three" allowZeroExpanded="true">
 		            <AccordionItem>
 		            	<AccordionItemHeading>
 		                    <AccordionItemButton className="skillsButton skillsButtonGeneral" alt="Skills details.">
@@ -139,7 +139,7 @@ export default function SiteMain() {
 	            	</AccordionItem>
 	        	</Accordion>
         	</div>
-			<Skillscodethree aria-hidden="true"/>
+			<Skillscodethree key="skills-code-three" aria-hidden="true"/>
 		</section>
 	</div>
   )
