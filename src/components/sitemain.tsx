@@ -63,7 +63,7 @@ export default function SiteMain() {
   return (
 	<div className="sectionMain wrapper">
 		<section className="bio">
-			<div className="headingStyle h2margin"><h2><span>Skills</span></h2></div>
+			<div className="headingStyle h2margin"><h2><span>ABOUT</span></h2></div>
 			<div className="bioText">
 			{data.allContentfulMain.edges.map(({node:data}) => (
 			<div className="bioInfo">
