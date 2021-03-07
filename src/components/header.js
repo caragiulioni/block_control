@@ -13,8 +13,9 @@ const Header = () => (
 	  			<div aria-hidden="true" className="glow">BLOCKCONTROL</div>
 	  			<div aria-hidden="true" className="headerInfo">
 					<h2><span>Online home for Cara Giulioni</span></h2>	
-			 		<p><span>Front-End Web Development</span></p>
+			 		<p><span>Full-Stack Web Development</span></p>
 			 		<div className="visual"><p><span>Visual and Auditory Arts</span></p></div>
+					 <div className="visual"><p><span>www.blockcontrol.ca</span></p></div>
 	 			</div>
  	 		</div>
 

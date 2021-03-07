@@ -1,117 +1,112 @@
-*{
-  list-style:none;
-  padding:0;
+* {
+  list-style: none;
+  padding: 0;
 }
 
-li{
+li {
   list-style-type: none;
 }
-.skills{
-
+.skills {
   margin: 0 auto;
-  color:white;
+  color: white;
 }
 
-.skills li{
-  margin: 20px 0 10px 0; 
+.skills li {
+  margin: 20px 0 10px 0;
 }
 
-.skillsBar{
+.skillsBar {
   background: black;
-  display:block;
-  height:6px;
-  border-radius:3px;
-  overflow:hidden;
-  box-shadow:0 0 10px #FF2A55;
+  display: block;
+  height: 6px;
+  border-radius: 3px;
+  overflow: hidden;
+  box-shadow: 0 0 10px #ff2a55;
 }
-.skillsBar .barInner{
-  height:6px;
-  float:left;
+.skillsBar .barInner {
+  height: 6px;
+  float: left;
   background: var(--neonred);
 }
 
-.css3{
-  width:65%;
+.css3 {
+  width: 70%;
 }
 
-.javascript{
-  width:45%;
-
+.javascript {
+  width: 50%;
 }
-.react{
-  width:45%;
-
-}
-.vuejs{
-  width:45%;
-
-}
-.shopify{
-  width:20%;
+.react {
+  width: 50%;
 }
 
-.photoshop{
-  width:45%;
-
-}
-.illustrator{
-  width:45%;
-
-}
-.soundproduction{
-  width:65%;
-
-}
-.video{
-  width:20%;
-
+.gatsby {
+  width: 50%;
 }
 
-.creativity{
-  width:95%;
-
+.node {
+  width: 45%;
 }
-.adaptability{
-  width:95%;
-
+.vuejs {
+  width: 45%;
 }
-.reliability{
-  width:95%;
-
-}
-.workethic{
-  width:95%;
-
+.shopify {
+  width: 20%;
 }
 
-.skillLevel{
-	display: flex;
-	justify-content: space-between;
-	margin: 0 auto;
-	width: 85%;
-
+.photoshop {
+  width: 45%;
+}
+.illustrator {
+  width: 45%;
+}
+.soundproduction {
+  width: 65%;
+}
+.video {
+  width: 35%;
 }
 
-.skillLevel p{
+.creativity {
+  width: 95%;
+}
+.adaptability {
+  width: 95%;
+}
+.reliability {
+  width: 95%;
+}
+.workethic {
+  width: 95%;
+}
+
+.skillLevel {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 auto;
+  width: 85%;
+}
+
+.skillLevel p {
   font-size: 1em;
   color: #878787;
 }
 
 @media (max-width: 767.98px) {
-  .skillLevel{
+  .skillLevel {
     width: 100%;
   }
 }
 
 @media (max-width: 499px) {
-  .skillLevel p{
-  font-size: .8em;
+  .skillLevel p {
+    font-size: 0.8em;
   }
 
-  .skills h2{
+  .skills h2 {
     font-size: 1.5em;
   }
-    .skills h3{
+  .skills h3 {
     font-size: 1.3em;
   }
 }

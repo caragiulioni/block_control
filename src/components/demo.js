@@ -3,7 +3,6 @@ import { useStaticQuery, graphql } from "gatsby"
 import "./layout.css"
 import "./demo.css"
 
-
 export default function Demo() {
   const data = useStaticQuery(graphql`
 	query DemosQuery{
@@ -32,7 +31,7 @@ export default function Demo() {
 	return (
 		<section className="demos wrapper">
 			{data.allContentfulDemo.edges.map(({node:data}) => (
-			<div>
+			<div className="demo-wrapper">
 				<div className="h2margin headingStyle"><h2><span>{data.title}</span></h2></div>
 				<div key={data.id} className="demo padding sectionMargin">
 					<div className="demoContent sectionMargin">

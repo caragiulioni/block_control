@@ -10,8 +10,8 @@
 }
 
 .demoButtons {
-  display: flex;
-  justify-content: center;
+  /* display: flex;
+  justify-content: center; */
 }
 
 .demoButtons a {
@@ -24,7 +24,7 @@
 }
 .demoContent p {
   font-weight: bold;
-  text-align: center;
+  /* text-align: center; */
 }
 .demo h2 {
   background-color: var(--neonred);

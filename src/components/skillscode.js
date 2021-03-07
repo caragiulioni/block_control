@@ -6,12 +6,6 @@ const Skillscode = () => (
 
 	<div className="skills">
 			<li>
-				<h4>CSS3</h4>
-				<span className="skillsBar"><span className="barInner css3">
-				</span></span>
-			</li>
-
-			<li>
 				<h4>JAVASCRIPT</h4>
 				<span className="skillsBar"><span className="barInner javascript">
 				</span></span>
@@ -24,8 +18,26 @@ const Skillscode = () => (
 			</li>
 		
 			<li>
+				<h4>NODE JS</h4>
+				<span className="skillsBar"><span className="barInner node">
+				</span></span>
+			</li>
+
+			<li>
+				<h4>GATSBY</h4>
+				<span className="skillsBar"><span className="barInner gatsby">
+				</span></span>
+			</li>
+
+			<li>
 				<h4>VUE JS</h4>
 				<span className="skillsBar"><span className="barInner vuejs">
+				</span></span>
+			</li>
+
+			<li>
+				<h4>CSS3</h4>
+				<span className="skillsBar"><span className="barInner css3">
 				</span></span>
 			</li>
 
