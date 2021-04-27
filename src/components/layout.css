@@ -1,94 +1,97 @@
-
 @font-face {
-    font-family: 'Rajdhani';
-    src: local('Rajdhani'), url(../fonts/Rajdhani/Rajdhani-Regular.ttf) format('truetype');
+  font-family: "Rajdhani";
+  src: local("Rajdhani"),
+    url(../fonts/Rajdhani/Rajdhani-Regular.ttf) format("truetype");
 }
 
-html {padding:0; margin:0;}
-
-html{
-	background-color: black;
-	color: white;
-	font-family: "Rajdhani";
-	scroll-behavior: smooth;
-	 -webkit-font-smoothing: antialiased;
-	  overflow-x: hidden;
+html {
+  padding: 0;
+  margin: 0;
 }
 
-body{
-	font-size: 16px;
-	 -webkit-font-smoothing: antialiased;
-
+html {
+  background-color: black;
+  color: white;
+  font-family: "Rajdhani";
+  scroll-behavior: smooth;
+  -webkit-font-smoothing: antialiased;
+  overflow-x: hidden;
 }
 
-h1, h2, h3, h4{
-	font-family: "Rajdhani";
-	font-weight: 200;
-	text-transform: uppercase;
-	margin:0;
-	padding:0;
+body {
+  font-size: 16px;
+  -webkit-font-smoothing: antialiased;
 }
 
-
-h2{
-font-size: 1.5em;
+h1,
+h2,
+h3,
+h4 {
+  font-family: "Rajdhani";
+  font-weight: 200;
+  text-transform: uppercase;
+  margin: 0;
+  padding: 0;
 }
 
-h3{
-	font-size: 1.4em;
+h2 {
+  font-size: 1.5em;
 }
 
-section{
+h3 {
+  font-size: 1.4em;
+}
+
+section {
 }
 
 .headingStyle h2,
 .headingStyle h3,
-.headingStyle p{
-    background-color: #FF2A55;
-    padding: 5px;
+.headingStyle p {
+  background-color: #ff2a55;
+  padding: 5px;
 }
 
 .headingStyle h2 span,
 .headingStyle h3 span,
-.headingStyle p span{
-    background-color: black;
-    padding: 0px 10px;
+.headingStyle p span {
+  background-color: black;
+  padding: 0px 10px;
 }
 
-.padding{
-	padding: 15px;
+.padding {
+  padding: 15px;
 }
 
-.sectionPadding{
-	padding: 30px 15px 20px 15px;
+.sectionPadding {
+  padding: 0px 15px 20px 0px;
 }
 
-.margin{
-	margin: 15px;
+.margin {
+  margin: 15px;
 }
 
-.sectionMargin{
-	margin: 15px 0px;
+.sectionMargin {
+  margin: 15px 0px;
 }
 
-.h2margin{
-	margin:15px 0px;
+.h2margin {
+  margin: 15px 0px;
 }
 
-.wrapper{
-	width: 90vw;
-	margin: 0 auto;
-	max-width: 1365px;
+.wrapper {
+  width: 90vw;
+  margin: 0 auto;
+  max-width: 1365px;
 }
 
-a{
-	color:#69EFEF;
-	text-decoration: none;
+a {
+  color: #69efef;
+  text-decoration: none;
 }
-
 
 @media (max-width: 768px) {
-	.wrapper{
-	width: 95vw;
-	}
+  .wrapper {
+    width: 95vw;
+  }
 }
