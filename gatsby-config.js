@@ -1,16 +1,16 @@
 module.exports = {
   siteMetadata: {
     title: `Block Control`,
-    description: `Online home for Cara Giulioni. Front-End web development, visual and auditory arts.`,
+    description: `Online home for Cara Giulioni. Full-Stack web development, visual and auditory arts.`,
     author: `Cara Giulioni`,
   },
   plugins: [
-      {
+    {
       resolve: `gatsby-source-contentful`,
       options: {
         spaceId: `twr32x1liljb`,
-        accessToken: `jJ47MPykCM4uNayj6t1H_cXKhOUBPYqIHl-k_VlmuQc`
-      }
+        accessToken: `jJ47MPykCM4uNayj6t1H_cXKhOUBPYqIHl-k_VlmuQc`,
+      },
     },
     `gatsby-plugin-react-helmet`,
     {
@@ -33,7 +33,7 @@ module.exports = {
         display: `minimal-ui`,
         icon: `src/images/gatsby-icon.png`, // This path is relative to the root of the site.
       },
-    }
+    },
     // this (optional) plugin enables Progressive Web App + Offline functionality
     // To learn more, visit: https://gatsby.dev/offline
     // `gatsby-plugin-offline`,
