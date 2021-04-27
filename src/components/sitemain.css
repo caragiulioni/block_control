@@ -291,37 +291,16 @@
 }
 
 @media (max-width: 500px) {
-  .skillsButtonWeb,
-  .skillsButtonVisual,
-  .skillsButtonGeneral {
-    margin-left: 270px;
-  }
-
   .bioInfo p {
     font-size: 0.9em;
   }
 }
 
 @media (max-width: 450px) {
-  .skillsButtonWeb,
-  .skillsButtonVisual,
-  .skillsButtonGeneral {
-    margin-left: 300px;
-  }
 }
 
 @media (max-width: 380px) {
-  .skillsButtonWeb,
-  .skillsButtonVisual,
-  .skillsButtonGeneral {
-    margin-left: 265px;
-  }
 }
 
 @media (max-width: 320px) {
-  .skillsButtonWeb,
-  .skillsButtonVisual,
-  .skillsButtonGeneral {
-    margin-left: 230px;
-  }
 }
