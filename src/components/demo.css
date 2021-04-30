@@ -1,7 +1,16 @@
+.demos {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
 .demos img {
   width: 100%;
 }
 
+.demo-wrapper {
+  width: 46%;
+  padding: 10px;
+}
 .demo.padding {
   padding: 15px 15px 0px 15px;
 }
@@ -23,7 +32,8 @@
   margin-bottom: 50px;
 }
 .demoContent p {
-  font-weight: bold;
+  font-size: 0.9em;
+  /* font-weight: bold; */
   /* text-align: center; */
 }
 .demo h2 {
@@ -34,6 +44,20 @@
 .demo h2 span {
   background-color: black;
   padding: 0px 10px;
+}
+
+@media (max-width: 1000px) {
+  .demo-wrapper {
+    width: 45%;
+    padding: 10px;
+  }
+}
+
+@media (max-width: 800px) {
+  .demo-wrapper {
+    width: 100%;
+    padding: 10px;
+  }
 }
 
 @media (max-width: 767.98px) {
