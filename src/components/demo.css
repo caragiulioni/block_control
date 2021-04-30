@@ -1,13 +1,14 @@
 .demos {
   display: flex;
   flex-wrap: wrap;
+  justify-content: center;
 }
 .demos img {
   width: 100%;
 }
 
 .demo-wrapper {
-  width: 48%;
+  width: 46%;
   padding: 10px;
 }
 .demo.padding {
