@@ -1,9 +1,8 @@
-<!-- AUTO-GENERATED-CONTENT:START (STARTER) -->
-<h1 align="center">
-  Welcome to Block Control
-</h1>
+### Block Control 
 
-<p>This site was built in the React based Gatsby static site generator, powered by GraphQL and webhooked through Netlify. View it live at blockcontrol.ca</p>
+#### Personal Website
 
+Built in the React based Gatsby static site generator, powered by GraphQL via Contentful and webhooked through Netlify.
 
-<!-- AUTO-GENERATED-CONTENT:END -->
+View it Live
+[www.blockcontrol.ca](https://www.blockcontrol.ca/)
