@@ -80,7 +80,6 @@ section {
 }
 
 .wrapper {
-  width: 99vw;
   margin: 0 auto;
   max-width: 1365px;
 }
@@ -91,7 +90,10 @@ a {
 }
 
 .wrapper {
-  width: 100vw;
+  width: 96vw;
 }
 @media (max-width: 768px) {
+  .wrapper {
+    width: 98vw;
+  }
 }
