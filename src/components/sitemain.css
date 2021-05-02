@@ -46,6 +46,9 @@
   border-radius: 2px;
 }
 
+.accordionContainer {
+  margin: 10px 0px;
+}
 .accordion__button {
   color: #444;
   cursor: pointer;
@@ -241,6 +244,9 @@
 @media (max-width: 931px) {
   .bioInfo {
     width: 95%;
+  }
+  .skills {
+    padding: 0px 15px;
   }
 }
 
